@@ -16,7 +16,7 @@ export default function SubmitJoke() {
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ type, content }),
+                body: JSON.stringify({ type, content, approved: false }),
             });
             const data: JokeSubmissionResponse = await res.json();
             if (data.success) {
