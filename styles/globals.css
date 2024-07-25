@@ -1,6 +1,6 @@
 /* styles/globals.css */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins';
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
@@ -10,13 +10,16 @@ h1 {
   color: #333;
 }
 
-input, textarea {
+input,
+textarea {
+  font-family: 'Poppins';
   padding: 10px;
-  margin: 10px 0;
+  margin: 10px;
   width: 300px;
 }
 
 button {
+  font-family: 'Poppins';
   padding: 10px 20px;
   background-color: #0070f3;
   color: white;
