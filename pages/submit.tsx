@@ -34,6 +34,7 @@ export default function SubmitJoke() {
     return (
         <div style={{ padding: '20px', textAlign: 'center' }}>
             <h1>Submit a Joke</h1>
+            
             <input
                 type="text"
                 placeholder="Type"
